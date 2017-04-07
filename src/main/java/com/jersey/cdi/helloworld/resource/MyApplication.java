@@ -1,4 +1,4 @@
-package com.heartbeat.clientApi.clinical.resource;
+package com.jersey.cdi.helloworld.resource;
 
 import org.glassfish.jersey.server.ResourceConfig;
 
@@ -9,6 +9,6 @@ public class MyApplication extends ResourceConfig {
 
     public MyApplication() {
         register(new WebServiceBinder());
-        packages(true, "com.heartbeat.clientApi.clinical.resource");
+        packages(true, "com.jersey.cdi.helloworld.resource");
     }
 }

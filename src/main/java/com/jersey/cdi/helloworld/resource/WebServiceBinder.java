@@ -1,6 +1,6 @@
-package com.heartbeat.clientApi.clinical.resource;
+package com.jersey.cdi.helloworld.resource;
 
-import com.heartbeat.clientApi.clinical.service.PatientService;
+import com.jersey.cdi.helloworld.service.HelloWorldService;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 
 /**
@@ -9,6 +9,6 @@ import org.glassfish.hk2.utilities.binding.AbstractBinder;
 public class WebServiceBinder extends AbstractBinder {
         @Override
         protected void configure() {
-            bind(PatientService.class).to(PatientService.class);
+            bind(HelloWorldService.class).to(HelloWorldService.class);
         }
 }
