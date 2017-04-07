@@ -34,5 +34,5 @@ public class HelloWorldResource {
 
         return Response.ok().entity(helloWorldBean).build();
     }
-
+g
 }
