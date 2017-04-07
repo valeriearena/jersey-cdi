@@ -1,6 +1,6 @@
 package com.heartbeat.clientApi.clinical.resource;
 
-import com.heartbeat.clientApi.clinical.persistence.entity.PatientEntity;
+import com.heartbeat.clientApi.clinical.bean.PatientBean;
 import com.heartbeat.clientApi.clinical.service.PatientService;
 
 import javax.inject.Inject;
@@ -30,9 +30,9 @@ public class PatientResource{
     @Produces(MediaType.APPLICATION_JSON)
     public Response ping(@PathParam("patientId") int patientId) {
 
-        PatientEntity patientEntity = patientService.getPatient(patientId);
+        PatientBean patientBean = patientService.getPatient(patientId);
 
-        return Response.ok().entity(patientEntity).build();
+        return Response.ok().entity(patientBean).build();
     }
 
 }

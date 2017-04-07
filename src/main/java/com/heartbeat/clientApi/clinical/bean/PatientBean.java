@@ -1,11 +1,11 @@
-package com.heartbeat.clientApi.clinical.persistence.entity;
+package com.heartbeat.clientApi.clinical.bean;
 
 import java.util.Date;
 
 /**
  * Created by valerie on 1/21/17.
  */
-public class PatientEntity {
+public class PatientBean {
 
     private Integer patientId;
     private String patientName;
