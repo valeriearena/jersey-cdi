@@ -1,5 +1,4 @@
-# tomcat-apache-cxf-hello-world
-Tomcat Hello World integrating Jersey and CDI.
+# Tomcat Hello World integrating Jersey and CDI.
 
 Follow the Setup Steps below.
 
