@@ -1,4 +1,4 @@
-# Tomcat Hello World integrating Jersey and CDI.
+# Web app with Jersey and CDI.
 
 Follow the Setup Steps below.
 
