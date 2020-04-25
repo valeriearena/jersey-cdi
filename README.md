@@ -1,4 +1,5 @@
-# Web app with Jersey and CDI.
+# webapp-jersey-cdi
+Web app with Jersey and CDI.
 
 Follow the Setup Steps below.
 
